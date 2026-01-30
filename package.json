@@ -2,7 +2,12 @@
   "name": "@my-blog/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "gen:module": "node backend/src/tools/generate-backend.js module",
+    "gen:resource": "node backend/src/tools/generate-backend.js resource",
+    "gen:controller": "node backend/src/tools/generate-backend.js controller",
+    "gen:service": "node backend/src/tools/generate-backend.js service"
+  },
   "private": true,
   "devDependencies": {
     "@eslint/js": "^9.8.0",
