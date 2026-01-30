@@ -1,0 +1,9 @@
+{
+  "nx-console": {
+    "initialGitRef": {
+      "ref": "f70a2a3b281bf453b959b75e6cfe15f97d7d4972",
+      "subject": "Configuration added for different environments"
+    },
+    "targetVersion": "latest"
+  }
+}
